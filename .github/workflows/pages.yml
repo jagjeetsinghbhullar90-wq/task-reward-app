@@ -27,7 +27,7 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
-          token: ${{ secrets.PAGES_TOKEN }}
+          token: ${{ secrets.PAGES_TOKEN || secrets.TaskRewardPages2026 }}
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
