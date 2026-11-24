@@ -35,3 +35,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+# Trigger a fresh deployment after updating PAGES_TOKEN.
